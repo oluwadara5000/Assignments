@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 49, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.flexbox {
+  background-color: #f2f2f2;
+  width: 70%;
+  margin: auto;
+  padding: 70px 140px;
+  display: flex;
+}
+
+.flexbox div {
+  padding: 45px;
+}
+
+.flexbox h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+.flexbox p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 28px;
+  margin-bottom: 80px;
+  font-size: 16px;
+}
+
+.flexbox img {
+  margin-bottom: 25px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  transition: 0.3s;
+}
+
+.sedan-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*GRID CSS*/
+#body {
+  background-color: #f2f2f2;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+  gap: 20px;
+  width: 65%;
+  margin: auto;
+  padding: 50px;
+  background-color: rgb(51, 49, 49);
+}
+
+.grid div {
+  padding: 30px;
+  text-align: center;
+}
+
+.box-one {
+  background-color: #eb5020;
+  grid-area: a;
+}
+
+.box-two {
+  background-color: #ffa401;
+  grid-area: b;
+  height: 305px;
+}
+
+.box-three {
+  background-color: #05aa42;
+  grid-area: c;
+  height: 305px;
+}
+
+.box-four {
+  background-color: #01aefd;
+  grid-area: d;
+}
+
+.box-five {
+  background-color: #01aefd;
+  grid-area: e;
+}
+
+a {
+  margin-left: auto;
+  margin-right: 258px;
+}
+
+#link-div {
+  padding: 15px 25px;
+  margin-left: auto;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+#link-div:hover {
+  background-color: white;
+  color: rgb(51, 49, 49);
+}
