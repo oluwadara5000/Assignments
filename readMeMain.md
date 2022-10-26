@@ -1,12 +1,10 @@
-This is a md file that contains details about this Repository.
+This is a .md file that contains details about this Repository.
 
 The Repository is called "Assignments" which contains all the tasks undertaken during the course of Zuri Training from week 3 to week 5.
 
 The Repo contains three branches aside the main branch. They are: Week 3, Week 4, Week 5.
 
-Week 3 Branch contains the 2 tasks for week 3 which are a website with Registration, Login and Success pages styled with CSS.
-
-The webiste was to be built with replit platform. It is not online but you can see the raw platform here: https://replit.com/@OluwadarasimiOd/RegistrationLoginSuccess
+Week 3 Branch contains the 2 tasks for week 3 which are a website with Registration, Login and Success pages styled with CSS. The webiste was to be built with replit platform. It is not online but you can see the raw file here: https://replit.com/@OluwadarasimiOd/RegistrationLoginSuccess
 
 The second task for Week 3 is a mock up portfolio website which should include an about me section, services section, projects section and also another page which is to be a form for contacting me. Also it is not online but can be seen here: https://replit.com/@OluwadarasimiOd/Portfolio
 
