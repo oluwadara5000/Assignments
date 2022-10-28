@@ -1,4 +1,4 @@
-This branch comprises of two folders namely: Form and Flexbox
+This branch comprises of two folders namely: Form and Portfolio
 
 Form consists of 6 files which is 3 HTML files and their respective CSS files.
 
